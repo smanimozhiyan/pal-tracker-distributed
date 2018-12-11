@@ -18,7 +18,7 @@ public class RestConfig {
         return new RestTemplate();
     }
 
-    
+
     @Bean
     public ObjectMapper objectMapper() {
         ObjectMapper mapper = new ObjectMapper();
